@@ -1,6 +1,6 @@
 # dns-resolver
 
-A DNS resolver built from scratch in C using raw UDP sockets — no libraries, no OS resolver. Parses the DNS wire format manually, handles pointer compression, and traces the full resolution chain from root servers to the final answer.
+A DNS resolver built from scratch in C using raw UDP sockets, no libraries, no OS resolver. Parses the DNS wire format manually, handles pointer compression, and traces the full resolution chain from root servers to the final answer.
 
 ## Features
 
