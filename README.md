@@ -67,16 +67,16 @@ The resolver:
 
 ## Wire format reference
 
-- RFC 1035 — Domain Names: Implementation and Specification
-- RFC 3596 — DNS Extensions to Support IPv6 (AAAA records)
+- RFC 1035 - Domain Names: Implementation and Specification
+- RFC 3596 - DNS Extensions to Support IPv6 (AAAA records)
 
 ## Project structure
 dns-resolver/
 src/
-main.c   — CLI, argument parsing
-dns.c    — packet construction, parsing, trace logic
-net.c    — UDP socket send/receive
+main.c   - CLI, argument parsing
+dns.c    - packet construction, parsing, trace logic
+net.c    - UDP socket send/receive
 include/
-dns.h    — structs, constants, function declarations
+dns.h    - structs, constants, function declarations
 Makefile
 
